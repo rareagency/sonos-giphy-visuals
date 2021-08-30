@@ -25,4 +25,4 @@ jobs:
         with:
           push: true
           platforms: linux/arm/v7
-          tags: rikukissa/sonos-gif-now-playing:latest
+          tags: rikukissa/sonos-giphy-visuals:latest

@@ -9,7 +9,7 @@ export function useConfig() {
 
   useEffect(() => {
     async function fetchConfig() {
-      const res = await fetch("/config.json");
+      const res = await fetch("./config.json");
       const data = await res.json();
       setConfig(data);
     }
